@@ -1,0 +1,28 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MesScripts/MultiplayerScript.cs">
+    <Files>
+      <File FileName="SeriousGame.userprefs" Line="1" Column="1" />
+      <File FileName="../New Unity Project/Assets/DeplaceurCamera.cs" Line="15" Column="1" />
+      <File FileName="Assets/MesScripts/ScriptsInterface/ScriptDeck.cs" Line="7" Column="19" />
+      <File FileName="Assets/MesScripts/ScriptsInterface/ScriptJauge.cs" Line="1" Column="31" />
+      <File FileName="Assets/MesScripts/ScriptsInterface/ScriptCartes.cs" Line="1" Column="1" />
+      <File FileName="Assets/MesScripts/CartesEtDecks/Carte.cs" Line="12" Column="5" />
+      <File FileName="Assets/MesScripts/CartesEtDecks/Deck.cs" Line="31" Column="25" />
+      <File FileName="Assets/MesScripts/MultiplayerScript.cs" Line="489" Column="49" />
+      <File FileName="Assets/MesScripts/CameraScript.cs" Line="57" Column="19" />
+      <File FileName="Assets/MesScripts/ScriptsPays/Pays.cs" Line="176" Column="3" />
+      <File FileName="Assets/MesScripts/CartesEtDecks/CartesEnum.cs" Line="13" Column="27" />
+      <File FileName="Assets/MesScripts/ScriptsPays/EnumPays.cs" Line="1" Column="1" />
+      <File FileName="Assets/MesScripts/ScriptsPays/Jauge.cs" Line="1" Column="1" />
+      <File FileName="Assets/MesScripts/Joueur.cs" Line="10" Column="3" />
+      <File FileName="Assets/MesScripts/Partie.cs" Line="11" Column="54" />
+      <File FileName="Assets/MesScripts/GestionDuMonde.cs" Line="104" Column="64" />
+      <File FileName="Assets/MesScripts/Site.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
