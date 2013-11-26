@@ -36,10 +36,13 @@ namespace AssemblyCSharp
 			coutScience = new double[nombreDeCartesDifferentes];
 			variations = new ArrayList[nombreDeCartesDifferentes];
 			jaugesCibles = new ArrayList[nombreDeCartesDifferentes];
-	
+			effets = new ArrayList[nombreDeCartesDifferentes];
+
 			foreach (CartesEnum e in (CartesEnum[]) Enum.GetValues(typeof(CartesEnum))) {
 				variations[(int)e] = new ArrayList();
 				jaugesCibles[(int)e] = new ArrayList();
+				effets[(int)e] = new ArrayList();
+
 			}
 
 

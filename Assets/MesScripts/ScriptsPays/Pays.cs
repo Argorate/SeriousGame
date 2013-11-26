@@ -9,6 +9,7 @@ public class Pays{
 	protected NOMO_Site capitale;
 	protected Texture flag;
 	protected double[] jauges = new double[10];
+	protected double[] dJauges = new double[10];
 	public EnumPays indexPays;
 	
 	
@@ -154,6 +155,47 @@ public class Pays{
 				// France + Economie
 				cartes.Add(new Carte(CartesEnum.ConstruireDesCentralesNucleaire));
 			
+			} else if (typeDeDeck == 4) {
+				
+				// France + Ecologie 
+				cartes.Add(new Carte(CartesEnum.ConstruireDesCentralesNucleaire));
+				
+			}
+			
+			break;
+
+
+		case EnumPays.Russie:
+			
+			if (typeDeDeck == 0) { 
+				
+				// France + Science
+				cartes.Add(new Carte(CartesEnum.ConstruireDesEoliennes));
+				cartes.Add(new Carte(CartesEnum.ConstruireDesCentralesNucleaire));
+				cartes.Add(new Carte(CartesEnum.ConstruireDesCentralesNucleaire));
+				cartes.Add(new Carte(CartesEnum.ConstruireDesEoliennes));
+				cartes.Add(new Carte(CartesEnum.ConstruireDesEoliennes));
+				cartes.Add(new Carte(CartesEnum.ConstruireDesEoliennes));
+				
+			} else if (typeDeDeck == 1) {
+				
+				// France + Legislation 
+				cartes.Add(new Carte(CartesEnum.ConstruireDesCentralesNucleaire));
+				cartes.Add(new Carte(CartesEnum.ConstruireDesCentralesNucleaire));	
+				cartes.Add(new Carte(CartesEnum.ConstruireDesCentralesNucleaire));	
+				cartes.Add(new Carte(CartesEnum.ConstruireDesCentralesNucleaire));	
+				
+				
+			} else if (typeDeDeck == 2) {
+				
+				// France + International
+				cartes.Add(new Carte(CartesEnum.ConstruireDesCentralesNucleaire));
+				
+			} else if (typeDeDeck == 3) {
+				
+				// France + Economie
+				cartes.Add(new Carte(CartesEnum.ConstruireDesCentralesNucleaire));
+				
 			} else if (typeDeDeck == 4) {
 				
 				// France + Ecologie 
