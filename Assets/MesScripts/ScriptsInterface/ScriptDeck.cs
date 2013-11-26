@@ -53,6 +53,7 @@ public class ScriptDeck : MonoBehaviour {
 				j.transform.localRotation = Quaternion.identity;
 				j.transform.Rotate(270,0,0);
 				ScriptJauge sj = (ScriptJauge) (j.GetComponent("ScriptJauge"));
+				sj.typeDeJauge = (Jauge) sc.carte.getJaugesCibles()[i];
 				sj.progression.renderer.material = MultiplayerScript.multi.materiauxJauges[(int)sc.carte.getJaugesCibles()[i]];
 				sj.ajusterTaille((float)sc.carte.getVariations()[i] , 2f , true);
 			}

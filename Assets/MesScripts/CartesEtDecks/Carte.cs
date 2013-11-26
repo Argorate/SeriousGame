@@ -16,6 +16,10 @@ namespace AssemblyCSharp
 		public static double[] coutScience;
 		public static ArrayList[] variations;
 		public static ArrayList[] jaugesCibles;
+		public static ArrayList[] effets;
+			// 0 : normal
+			// 1 : altère la variation et non le capital
+			//
 		public static int nombreDeCartesDifferentes;
 		public CartesEnum typeDeCarte;
 
@@ -90,12 +94,19 @@ namespace AssemblyCSharp
 			return Carte.jaugesCibles[(int)this.typeDeCarte];
 		}
 		
+		static private void impact (CartesEnum e , Jauge j , float v , Effet ef) {
+			variations[(int)e].Add(v);
+			jaugesCibles[(int)e].Add(j);
+			effets[(int)e].Add(ef);
+
+		}
+
 		static private void impact (CartesEnum e , Jauge j , float v) {
 			variations[(int)e].Add(v);
 			jaugesCibles[(int)e].Add(j);
-			
+			effets[(int)e].Add(Effet.total);			
 		}
-		
+
 		/* Active la carte et fait un effet en fonction de son type*/
 		public void activer () {
 			
@@ -109,4 +120,14 @@ namespace AssemblyCSharp
 			}
 		}
 	}
+}
+
+public enum Effet
+{
+	/*----------------Les effets des cartes----------------*/
+	
+	total, //Altere le total
+	derivee, //Altere la derivee de la jauge
+	
+	/*---------------------------------------*/
 }

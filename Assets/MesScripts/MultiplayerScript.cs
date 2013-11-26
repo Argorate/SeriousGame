@@ -4,21 +4,9 @@ using AssemblyCSharp;
 using System;
 
 
-/// <summary>
-/// This script is attached to the MultiplayerManager and it 
-/// is the foundation for our multiplayer system.
-/// 
-/// This script accesses the ScoreTable script to inform it of
-/// the winning score criteria.
-/// 
-/// This script is accessed by the CursorControl script.
-/// </summary>
-
 public class MultiplayerScript : MonoBehaviour {
 	
 	//Variables Start___________________________________
-	
-	
 	
 	public static MultiplayerScript multi;
 	
